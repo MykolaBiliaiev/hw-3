@@ -1,0 +1,271 @@
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+
+
+.container { 
+    outline: 2px solid orange;
+    background-color: pink;
+    text-align: center;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button {
+    min-width: 73px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-align: center;
+}
+
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+/* logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: left
+}
+
+.logo-color-web {
+color: #2196F3;
+}
+
+.logo-color-studio-header {
+color: #000000;
+}
+
+.logo-color-studio-footer {
+    color: #FFFFFF;
+}
+
+
+/* header-section*/
+.page-head {
+    background-color: #FFFFFF
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.site-nav {
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.head-contacts {
+    color:#757575 ;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* Header line */
+
+position: ;
+width: 1600px;
+height: 0px;
+left: 0px;
+top: 80px;
+
+border: 1px solid #ECECEC;
+
+/* hero block section */
+
+.hero-block {
+    text-align: center;
+    background-color: #2F303A;
+    margin-bottom: 0px;
+    padding: 200px 450px;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+.hero-block-text {
+    Width: 696px;
+    Height: 120px;
+    color:red;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: ;
+}
+
+.hero-block-button {
+    background-color: #2196F3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+    
+
+/* about us section */
+.our-benefits-container {
+    display: flex;
+
+}
+
+.about-us-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.about-us-description {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* what we do section */
+.what-we-do-section {
+    margin: 94px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.what-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+/* our team section */
+.our-team {
+   background-color: #F5F4FA;
+   padding: 94px 215px;
+}
+
+.our-team-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.team-member-title {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team-member-description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+
+/* footer section */
+.footer {
+    background-color: #2F303A;
+}
+
+.location-link {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+/* our projects section */
+.our-projects-filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+
+.our-projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-top: 20px;
+}
+
+.our-projects-description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+}
+
+/* General selectors section*/
+
+a { color: inherit; } 
+
+.link {
+    text-decoration: none;
+}
+
+
+/* hover-focus-action-function */
+.hover-links-and-buttons:hover,
+.hover-links-and-buttons:focus {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.hover-focus-only-text:hover,
+.hover-focus-only-text:focus {
+    color:#2196F3;
+    
+}
