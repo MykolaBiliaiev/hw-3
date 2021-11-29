@@ -72,7 +72,6 @@ a {
 
 .head-container {
   display: flex;
-  width: 1200px;
   align-items: center;
 }
 
@@ -86,9 +85,6 @@ a {
   letter-spacing: 0.02em;
   color: #212121;
   align-items: center;
-  height: 32px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .site-nav-item {
@@ -120,8 +116,6 @@ a {
   letter-spacing: 0.02em;
   align-items: center;
   margin-left: auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .head-contacts:hover,
