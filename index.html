@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,23 +11,25 @@
 </head>
 
 <body> 
+    <!--header-block-section-->
     <header class="page-head">
-
-        <nav class="container">
+        <div class="head-container">
+            <nav class="header-navigation">
             <a href="./index.html" class="logo link" lang="en">
                 <span class="logo-color-web">Web</span><span class="logo-color-studio-header">Studio</span> 
             </a>
 
             <ul class="site-nav list">
-                <li><a href="./index.html" class="hover-focus-only-text link">Студия</a></li>
-                <li><a href="./portfolio.html" class="hover-focus-only-text link">Портфолио</a></li>
-                <li><a href="" class="hover-focus-only-text link">Контакты</a></li>
+                <li class="site-nav-item"><a href="./index.html" class="">Студия</a></li>
+                <li class="site-nav-item"><a href="./portfolio.html" class="">Портфолио</a></li>
+                <li class="site-nav-item"><a href="" class="">Контакты</a></li>
             </ul>
         </nav>
+        </div>
 
-        <ul class="list">
-            <li><a href="mailto:info@devstudio.com" class="hover-focus-only-text head-contacts link">info@example.com</a></li>
-            <li><a href="tel:+380961111111" class="hover-focus-only-text head-contacts link">+380961111111</a></li>
+        <ul class="head-contacts list">
+            <li><a href="mailto:info@devstudio.com" class="head-contacts head-mail">info@example.com</a></li>
+            <li><a href="tel:+380961111111" class="head-contacts">+380961111111</a></li>
         </ul>
     </header>
 
@@ -44,7 +45,8 @@
 
         <!--Our benefits section-->
         <section>
-            <ul class="list our-benefits-container">
+            <div class="our-benefits-container">
+            <ul class="our-benefits-list list">
                 <li>
                     <h3 class="about-us-title">Внимание к деталям</h3>
                     <p class="about-us-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -62,25 +64,26 @@
                     <p class="about-us-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
 
         <!--What we do section-->
         <section class="what-we-do-section">
-            <div class="container">
+            <div class="what-we-do-container">
             <h2 class="what-we-do-title">Чем мы занимаемся</h2>
 
-            <ul class="list">
-                <li>
+            <ul class="what-we-do-img list">
+                <li class="what-we-do-item">
                     <img src="./images/what-we-do-section/what-we-do1.jpg" width="370" height="294"
                         alt="руки набирают текст">
                 </li>
 
-                <li>
+                <li class="what-we-do-item">
                     <img src="./images/what-we-do-section/what-we-do2.jpg" width="370" height="294"
                         alt="смартфон в руках">
                 </li>
 
-                <li>
+                <li class="what-we-do-item">
                     <img src="./images/what-we-do-section/what-we-do3.jpg" width="370" height="294"
                         alt="планшет с мозаикой">
                 </li>
@@ -92,26 +95,26 @@
         <section class="our-team">
             <div class="our-team-container">
             <h2 class="our-team-title">Наша команда</h2>
-            <ul class="list">
-                <li>
+            <ul class="our-team-list list">
+                <li class="our-team-list-item">
                     <img src="./images/our-team/team-card1.jpg" width="270" height="260" alt="член команды игорь">
                     <h3 class="team-member-title">Игорь Демьяненко</h3>
                     <p lang="en" class="team-member-description">Product Designer</p>
                 </li>
 
-                <li>
+                <li class="our-team-list-item">
                     <img src="./images/our-team/team-card2.jpg" width="270" height="260" alt="член команды ольга">
                     <h3 class="team-member-title">Ольга Репина</h3>
                     <p lang="en" class="team-member-description">Frontend Developer</p>
                 </li>
 
-                <li>
+                <li class="our-team-list-item">
                     <img src="./images/our-team/team-card3.jpg" width="270" height="260" alt="член команды николай">
                     <h3 class="team-member-title">Николай Тарасов</h3>
                     <p lang="en" class="team-member-description">Marketing</p>
                 </li>
 
-                <li>
+                <li class="our-team-list-item">
                     <img src="./images/our-team/team-card4.jpg" width="270" height="260" alt="член команды михаил">
                     <h3 class="team-member-title">Михаил Ермаков</h3>
                     <p lang="en" class="team-member-description">UI Designer</p>
@@ -124,11 +127,11 @@
     <!--Footer-section-->
     <footer class="footer">
         
-        <a href="./index.html" class="logo link" lang="en">
+        <a href="./index.html" class="logo link footer-logo" lang="en">
             <span class="logo-color-web">Web</span><span class="logo-color-studio-footer">Studio</span>
         </a>
 
-        <address class="container">
+        <address class="footer-container">
         <ul class="list">
             <li>
                 <a href="https://www.google.se/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+Ukraine,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
@@ -137,8 +140,8 @@
                 </a>
             </li>
 
-            <li><a href="mailto:info@example.com" class="hover-focus-only-text footer-contacts link">info@example.com</a></li>
-            <li><a href="tel:+380991111111" class="hover-focus-only-text footer-contacts link ">+380991111111</a></li>
+            <li><a href="mailto:info@example.com" class="footer-mail footer-contacts link">info@example.com</a></li>
+            <li><a href="tel:+380991111111" class="footer-contacts link ">+380991111111</a></li>
         </ul>
         </address>
     </footer>
