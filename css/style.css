@@ -41,10 +41,7 @@ a {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-align: left;
   margin-right: 90px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .logo-color-web {
@@ -78,7 +75,7 @@ a {
 }
 
 .header-navigation {
-  display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -91,8 +88,6 @@ a {
 
 .site-nav-item {
   margin-right: 50px;
-  height: 32px;
-  align-items: center;
 }
 
 .site-nav-item:last-child {
