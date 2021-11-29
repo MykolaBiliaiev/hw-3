@@ -4,13 +4,6 @@ body {
   color: #212121;
 }
 
-section {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 button {
   min-width: 73px;
   cursor: pointer;
@@ -33,6 +26,14 @@ a {
   padding: 0px;
   margin: 0px;
   list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
 /* logo */
@@ -67,11 +68,6 @@ a {
 .head-container {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
 }
 
 .header-navigation {
@@ -126,11 +122,8 @@ a {
 }
 
 .hero-container {
-  width: 1200px;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-block-text {
@@ -161,10 +154,6 @@ a {
 }
 
 /* about us section */
-.our-benefits-container {
-  width: 1200px;
-  margin: 95px 215px;
-}
 
 .our-benefits-list {
   display: flex;
@@ -193,14 +182,8 @@ a {
 
 /* what we do section */
 .what-we-do-section {
-  margin: 94px 0px;
   display: flex;
   justify-content: center;
-}
-
-.what-we-do-container {
-  margin-bottom: 95px;
-  width: 1200px;
 }
 
 .what-we-do-title {
@@ -224,22 +207,19 @@ a {
 /* our team section */
 .our-team {
   background-color: #f5f4fa;
-  padding: 94px 215px;
   display: flex;
   justify-content: center;
 }
 
-.our-team-container {
-  width: 1200px;
-}
-
 .our-team-list {
   display: flex;
+  margin: -15px;
 }
 
-.our-team-list > .our-team-list-item {
+.our-team-list-item {
   flex-basis: calc(100% / 4);
   border: 1px solid red;
+  margin: 15px;
 }
 
 .our-team-title {
@@ -248,8 +228,13 @@ a {
   line-height: 1.16;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
+}
+
+.our-team-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-member-title {
@@ -257,8 +242,8 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: 500;
-  margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .team-member-description {
@@ -267,6 +252,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: 400;
+  text-align: center;
 }
 
 /* footer section */
