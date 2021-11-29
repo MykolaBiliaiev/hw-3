@@ -47,6 +47,11 @@ a {
   width: 1200px;
 }
 
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 /* logo */
 .logo {
   font-family: Raleway, sans-serif;
@@ -311,8 +316,7 @@ a {
 }
 
 .filters-container {
-  margin-top: 95px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .our-projects-filters {
@@ -324,7 +328,6 @@ a {
   color: #212121;
   padding: 6px 22px;
   margin-right: 8px;
-  margin-bottom: 50px;
 }
 
 .marketing-button {
@@ -346,7 +349,7 @@ a {
 }
 
 .projects-item {
-  flex-basis: calc(100% / 3);
+  flex-basis: calc(100% / 3 - 2 * 15);
   margin: 15px;
 }
 
