@@ -92,10 +92,13 @@ a {
   letter-spacing: 0.02em;
   color: #212121;
   align-items: center;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .site-nav-item:not(:last-child) {
   margin-right: 50px;
+  
 }
 
 .site-nav-item:hover,
