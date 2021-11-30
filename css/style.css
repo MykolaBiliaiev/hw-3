@@ -49,6 +49,10 @@ a {
   padding-bottom: 94px;
 }
 
+.current {
+  color: #2196f3;
+}
+
 /* logo */
 .logo {
   font-family: Raleway, sans-serif;
