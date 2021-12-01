@@ -233,7 +233,12 @@ a {
 .what-we-do-img {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  margin-left: -30px;
+}
+
+.what-we-do-item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
 }
 
 .what-we-do-img:not(:last-child) {
@@ -298,14 +303,10 @@ a {
 /* footer section */
 .footer {
   background-color: #2f303a;
-  
-}
-
-.footer-container {
-padding-top: 60px;
-padding-right: auto;
-padding-bottom: 60px;
-padding-left: 215px;
+  padding-top: 60px;
+  padding-right: auto;
+  padding-bottom: 60px;
+  padding-left: 215px;
 }
 
 .footer-logo {
@@ -337,8 +338,6 @@ padding-left: 215px;
   line-height: 1.7;
 }
 
-
-
 /* filters section */
 
 .filters-buttons {
@@ -358,11 +357,14 @@ padding-left: 215px;
   font-family: Roboto, sans-serif;
   color: #212121;
   padding: 6px 22px;
-  margin-right: 8px;
   min-width: 73px; 
   border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
+}
+
+.margin-for-our-projects-buttons {
+  margin-right: 8px;
 }
 
 .marketing-button {
